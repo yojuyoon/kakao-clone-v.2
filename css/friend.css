@@ -5,9 +5,49 @@
   }
   .friend .friend__avatar {
     width: 50px;
-    border-radius: 35%;
-  }
-  .friend__avatar .g-avatar {
-    width: 70px;
+    border-radius: 38%;
   }
   
+  .friend__avatar.g-avatar {
+    width: 70px;
+  }
+  .friend__avatar.m-avatar{
+    width: 60px;
+  }
+  .friend .friend__column{
+    display: flex;
+    align-items: center;
+    
+  }
+  .friend .friend__avatar{
+    margin-right: 15px;
+  }
+  .friend__content .friend__name{
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  
+  .friend__content .friend__status,
+  .friend__content .friend__bottom-text,
+  .friend .chat__timestamp{
+    opacity: 0.6;
+  }
+  .friend__content .friend__bottom-text{
+    font-size:14px;
+  }
+  .friend__content .friend__status-text,
+  .friend .chat__timestamp{
+    font-size:12px;
+  }
+  .friend .friend__now-listening{
+    padding:5px 10px;
+    border-radius: 15px;
+    font-size: 14px;
+    border: 2px solid darkorchid;
+  }
+
+  .friend__now-listening span{
+    opacity: 0.6;
+  }
+
